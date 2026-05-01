@@ -3,7 +3,7 @@
 
 If you've used Claude or ChatGPT for serious work and noticed your second project doesn't go meaningfully faster than your first — that's not the model. It's the missing scaffolding around the model. This repo gives you that scaffolding.
 
-**Read the longer write-up:** [How I Work With AI Agents — and Why the Method Compounds](https://medium.com/@leifulstrup/...) *(Medium link to be added after publish.)*
+**Read the longer write-up:** [How I Work With AI Agents — and Why the Method Compounds](https://lulstrup.medium.com/how-i-work-with-ai-agents-and-why-the-method-compounds-360c75ed0f76)
 
 ## What's in here
 
