@@ -1,0 +1,18 @@
+# Changelog
+
+All notable changes to this repo are recorded here. Versions follow [Semantic Versioning](https://semver.org/). The version number lives in [`VERSION`](VERSION) and is tagged in git as `vX.Y.Z`.
+
+## [0.1.0] — 2026-09-24
+
+This is the first versioned release. The number marks the start of versioning, not the method's maturity. The git history before this tag records the earlier work.
+
+### Included
+- `METHOD.md`: the full method reference, with the five-file folder, the five-stage loop, and why the method compounds.
+- `templates/`: starter files for README, LOG, LESSONS_LEARNED, RUBRIC and Research/.
+- `skills/`: seven core Claude Skills plus two optional git skills (`init-git-repo`, `commit-iteration`).
+- `guides/`: five how-to guides covering getting started, rubrics, research discipline, skill promotion, and git for non-technical users.
+
+### Changed
+- `mine-skills-from-project` was updated to its May 2026 revision. The revision adds a `when_to_use` trigger list, tightened `allowed-tools`, a guard against mining projects that are too sparse, dated output filenames, a check against skills already installed, and a longer edge-cases section. The core method is unchanged.
+
+[0.1.0]: https://github.com/leifulstrup/agentic-knowledge-work-method/releases/tag/v0.1.0
