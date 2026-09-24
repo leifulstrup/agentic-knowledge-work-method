@@ -1,7 +1,7 @@
 # Agentic Knowledge Work Method
 *A folder pattern, four artifacts, and a learning loop for working with AI agents on real, accountable knowledge work.*
 
-**Version 0.1.0**. See [CHANGELOG.md](CHANGELOG.md).
+**Version 0.1.1**. See [CHANGELOG.md](CHANGELOG.md).
 
 If you've used Claude or ChatGPT for serious work and noticed your second project doesn't go meaningfully faster than your first — that's not the model. It's the missing scaffolding around the model. This repo gives you that scaffolding.
 
@@ -11,9 +11,8 @@ If you've used Claude or ChatGPT for serious work and noticed your second projec
 
 ```
 templates/      drop-in starter files for any new project (LOG, LESSONS_LEARNED, RUBRIC, Research/, README)
-skills/         seven Claude Skills that automate the core method
-examples/       sanitized excerpt from a real project (a recent guest lecture)
-guides/         four short how-to docs covering the trickiest parts
+skills/         seven core Claude Skills plus two optional git skills
+guides/         five short how-to docs covering the trickiest parts
 METHOD.md       full method documentation
 ```
 

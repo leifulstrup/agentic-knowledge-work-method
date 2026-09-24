@@ -2,6 +2,13 @@
 
 All notable changes to this repo are recorded here. Versions follow [Semantic Versioning](https://semver.org/). The version number lives in [`VERSION`](VERSION) and is tagged in git as `vX.Y.Z`.
 
+## [0.1.1] — 2026-09-24
+
+### Fixed
+- The README's contents list no longer mentions an `examples/` folder. The folder was never in the repo.
+- The README now says the repo has seven core skills plus two optional git skills. It previously said seven, while its skills table listed nine.
+- The README now says there are five guides. It previously said four.
+
 ## [0.1.0] — 2026-09-24
 
 This is the first versioned release. The number marks the start of versioning, not the method's maturity. The git history before this tag records the earlier work.
@@ -15,4 +22,5 @@ This is the first versioned release. The number marks the start of versioning, n
 ### Changed
 - `mine-skills-from-project` was updated to its May 2026 revision. The revision adds a `when_to_use` trigger list, tightened `allowed-tools`, a guard against mining projects that are too sparse, dated output filenames, a check against skills already installed, and a longer edge-cases section. The core method is unchanged.
 
+[0.1.1]: https://github.com/leifulstrup/agentic-knowledge-work-method/releases/tag/v0.1.1
 [0.1.0]: https://github.com/leifulstrup/agentic-knowledge-work-method/releases/tag/v0.1.0
