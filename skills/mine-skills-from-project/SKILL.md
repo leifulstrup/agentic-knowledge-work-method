@@ -91,6 +91,8 @@ This skill is **the compounding step** in the agentic knowledge-work method. Oth
 
     Do not auto-implement any skill. Propose only.
 
+Full worked example: see [examples/sample-skills-mined.md](../../examples/sample-skills-mined.md).
+
 ## Output format
 
 ```markdown

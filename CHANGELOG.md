@@ -2,6 +2,15 @@
 
 All notable changes to this repo are recorded here. Versions follow [Semantic Versioning](https://semver.org/). The version number lives in [`VERSION`](VERSION) and is tagged in git as `vX.Y.Z`.
 
+## [0.2.0] — 2026-09-24
+
+### Added
+- An `examples/` folder with `sample-skills-mined.md`, which is `mine-skills-from-project` output from an MBA case-study project. It shows what a finished skills retrospective looks like: ranked candidates with their evidence, a placement for each, and the candidates it refused.
+- `mine-skills-from-project` links to the example again.
+
+### Fixed
+- The example's summary said 3 candidates were refused. It now says 2, which matches its list. The third item on that list was the one skipped as already installed.
+
 ## [0.1.1] — 2026-09-24
 
 ### Fixed
@@ -22,5 +31,6 @@ This is the first versioned release. The number marks the start of versioning, n
 ### Changed
 - `mine-skills-from-project` was updated to its May 2026 revision. The revision adds a `when_to_use` trigger list, tightened `allowed-tools`, a guard against mining projects that are too sparse, dated output filenames, a check against skills already installed, and a longer edge-cases section. The core method is unchanged.
 
+[0.2.0]: https://github.com/leifulstrup/agentic-knowledge-work-method/releases/tag/v0.2.0
 [0.1.1]: https://github.com/leifulstrup/agentic-knowledge-work-method/releases/tag/v0.1.1
 [0.1.0]: https://github.com/leifulstrup/agentic-knowledge-work-method/releases/tag/v0.1.0
