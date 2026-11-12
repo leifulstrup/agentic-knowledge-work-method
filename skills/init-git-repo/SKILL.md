@@ -24,7 +24,7 @@ Runs `git init` on the project folder, creates a sensible `.gitignore` for knowl
 1. **Verify** the folder is not already a git repository (check for `.git/` directory). If it is, ask the user before proceeding.
 2. **Verify** git is installed (`git --version`). If not, give the user a one-line install instruction for their platform.
 3. **Run `git init -b main`** in the project folder.
-4. **Create a sensible `.gitignore`** with entries for: `.DS_Store`, common editor temp files, common large/binary files, secrets-shaped patterns (`.env`, `*.key`, `secrets.json`, etc.), and project-rendered output if applicable (`build/`, `dist/`, `*.pyc`, `__pycache__/`, etc.).
+4. **Create a sensible `.gitignore`** with entries for: `.DS_Store`, common editor temp files, common large/binary files, secrets-shaped patterns (`.env`, `*.key`, `secrets.json`, etc.), Claude Code's local settings (`.claude/settings.local.json`, `.claude/*.local.json`: approved commands are saved there verbatim, inline credentials included), and project-rendered output if applicable (`build/`, `dist/`, `*.pyc`, `__pycache__/`, etc.).
 5. **Create a `.gitattributes`** with sensible line-ending handling.
 6. **Configure local git identity** if not already configured: `git config user.name` and `git config user.email`. Ask the user for these if missing — set them at the repo level only, not globally, unless the user requests global.
 7. **Run `git add -A`** to stage everything except gitignored files.
