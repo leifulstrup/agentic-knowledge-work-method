@@ -2,6 +2,12 @@
 
 All notable changes to this repo are recorded here. Versions follow [Semantic Versioning](https://semver.org/). The version number lives in [`VERSION`](VERSION) and is tagged in git as `vX.Y.Z`.
 
+## [0.2.1] — 2026-11-12
+
+### Security
+- `.gitignore` now excludes `.claude/settings.local.json` and `.claude/*.local.json`. Claude Code saves a command approved with "Yes, and don't ask again" verbatim in that file, so a credential typed inline is stored with it. Apiiro found about 1,100 such files with live secrets in public repositories (Ars Technica, November 2026). A global gitignore does not travel with a clone, so the rule has to live in the repo.
+- `init-git-repo` now puts the same two entries in the `.gitignore` it creates, so projects scaffolded with the method are covered from their first commit.
+
 ## [0.2.0] — 2026-09-24
 
 ### Added

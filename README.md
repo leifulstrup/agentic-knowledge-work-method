@@ -1,7 +1,7 @@
 # Agentic Knowledge Work Method
 *A folder pattern, four artifacts, and a learning loop for working with AI agents on real, accountable knowledge work.*
 
-**Version 0.2.0**. See [CHANGELOG.md](CHANGELOG.md).
+**Version 0.2.1**. See [CHANGELOG.md](CHANGELOG.md).
 
 If you've used Claude or ChatGPT for serious work and noticed your second project doesn't go meaningfully faster than your first — that's not the model. It's the missing scaffolding around the model. This repo gives you that scaffolding.
 

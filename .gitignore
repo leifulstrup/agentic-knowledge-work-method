@@ -58,3 +58,10 @@ credentials.json
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Claude Code local settings. "Yes, and don't ask again" saves the approved
+# command verbatim, so a credential typed inline lands in this file. It is
+# per-machine and must never be committed. A global gitignore does not travel
+# with a clone, so the rule lives here.
+.claude/settings.local.json
+.claude/*.local.json
